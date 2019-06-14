@@ -1,0 +1,18 @@
+A concrete class and an abstract class can have properties where as an interface can not.  An interface is strictly just
+for defining your methods. You can not implement your methods in an interface.  However in a concrete class and an
+abstract class, you can implement methods.  An abstract class, you can not instantiate an object. Only in the concrete
+class is where you can instantiate.
+
+So here is where my understanding is on all of this and I could be way off. I think that an interface is used for laying
+out all of your methods.  If a class or an abstract class wishes to call one of those methods, say the method is
+"goToTheStore" and you have 2 people, John and Becky, well John may take his car to the store while Becky rides her bike.
+The Class would then implement that same "goToTheStore" method from the interface but within the code block on the concrete
+class file or the abstract class file, we lay out that John would take his car while Becky rides her bike.
+
+For the question, "Which implementation is the best?", I automatically rule out interface since you can not implement
+any methods in the interface.  In a concrete class, we, as in us developers, can instantiate an object and can literally
+build/set our values to the properties within the constructor to the object.  However, in an abstract class, the variables are set to
+protected which can only be accessed by classes in the same package and by subclasses thus making it possible to
+set/adjust those values through methods that are grabbed from those files. I feel this approach may work best with gathering user's input
+on the properties that we lay out for them.  So then it depends on which way you would like to construct your object, whether it be
+with an abstract class or a concrete class. Like I said, this might be way off. Trying to wrap my head around all of this.
